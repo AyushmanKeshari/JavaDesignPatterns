@@ -1,4 +1,4 @@
-package StructuralDesignPatterns.AdapterPattern.AdapterPatterCarPriceProject;
+package StructuralDesignPatterns.AdapterPattern.AdapterPatterPriceCalculatorProject;
 
 import org.example.UKCarPriceCalculator;
 

@@ -14,7 +14,7 @@ public class Main {
         weatherWarnings.postWarning(portland);
 
         AsianCity bangkok = new AsianCity("Bangkok", 50);
-        //Should give warning. But not because checking in Fahrenheit.
+        //Should give warning. But not because checking in Fahrenheit. Use Adapter instead.
         weatherWarnings.postWarning(bangkok);
 
         Adapter adapter = new Adapter(bangkok);

@@ -1,6 +1,6 @@
-package StructuralDesignPatterns.AdapterPattern.AdapterPatterCarPriceProject;
+package StructuralDesignPatterns.AdapterPattern.PriceCalculatorProject;
 
-public class CarPriceCalculator implements PriceCalculator {
+public class CarPriceCalculator implements PriceCalculator{
 
     private int age;
     private String model;

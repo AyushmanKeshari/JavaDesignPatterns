@@ -1,6 +1,4 @@
-package StructuralDesignPatterns.AdapterPattern.AdapterPatterCarPriceProject;
-
-import org.example.UKCarPriceCalculator;
+package StructuralDesignPatterns.AdapterPattern.PriceCalculatorProject;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,11 +7,6 @@ public class Main {
 
         TruckPriceCalculator truckPriceCalculator = new TruckPriceCalculator(10,1);
         printVehiclePrice(truckPriceCalculator);
-
-        UKCarPriceCalculator ukCarPriceCalculator = new UKCarPriceCalculator("BMW", 7);
-//        printVehiclePrice(ukCarPriceCalculator);  //Not possible to call directly. Use Adapter instead for outside class.
-        Adapter adapter = new Adapter(ukCarPriceCalculator);
-        printVehiclePrice(adapter);
     }
 
     public static void printVehiclePrice(PriceCalculator calculator) {

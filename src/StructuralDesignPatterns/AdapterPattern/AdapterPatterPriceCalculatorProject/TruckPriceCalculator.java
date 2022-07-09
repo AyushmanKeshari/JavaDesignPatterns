@@ -1,6 +1,6 @@
-package StructuralDesignPatterns.AdapterPattern.CarPriceProject;
+package StructuralDesignPatterns.AdapterPattern.AdapterPatterPriceCalculatorProject;
 
-public class TruckPriceCalculator implements PriceCalculator{
+public class TruckPriceCalculator implements PriceCalculator {
 
     private int age;
     private int mileage;
