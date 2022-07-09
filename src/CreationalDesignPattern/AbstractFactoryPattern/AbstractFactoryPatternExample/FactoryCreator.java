@@ -1,10 +1,6 @@
 
 package CreationalDesignPattern.AbstractFactoryPattern.AbstractFactoryPatternExample;
 
-/**
- *
- * @author bethan
- */
 public class FactoryCreator {
     
     public static BikeFactory createFactory(String type) {

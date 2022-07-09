@@ -1,10 +1,6 @@
 
 package CreationalDesignPattern.AbstractFactoryPattern.ImplementExtensibleFactory;
 
-/**
- *
- * @author bethan
- */
 public class MountainBikeHandlebar extends Handlebar {
     
     private static String type = "FLAT";

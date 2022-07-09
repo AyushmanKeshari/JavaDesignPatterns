@@ -1,9 +1,5 @@
 package CreationalDesignPattern.AbstractFactoryPattern.AbstractFactoryPatternExample;
 
-/**
- *
- * @author bethan
- */
 public class MountainBikeTire extends Tire {
 
     private static final String width = "WIDE";

@@ -1,9 +1,5 @@
 package CreationalDesignPattern.AbstractFactoryPattern.AbstractFactoryPatternExample;
 
-/**
- *
- * @author bethan
- */
 public class RoadBikeHandlebar extends Handlebar {
 
     private static String type = "DROP";

@@ -1,10 +1,6 @@
 
 package CreationalDesignPattern.AbstractFactoryPattern.AbstractFactoryPatternExample;
 
-/**
- *
- * @author bethan
- */
 public class MountainBikeFactory extends BikeFactory {
     
     @Override

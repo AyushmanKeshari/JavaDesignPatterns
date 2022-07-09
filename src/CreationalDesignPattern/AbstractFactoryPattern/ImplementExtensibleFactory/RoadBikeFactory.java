@@ -1,10 +1,6 @@
 
 package CreationalDesignPattern.AbstractFactoryPattern.ImplementExtensibleFactory;
 
-/**
- *
- * @author bethan
- */
 public class RoadBikeFactory extends BikeFactory {
 
     @Override

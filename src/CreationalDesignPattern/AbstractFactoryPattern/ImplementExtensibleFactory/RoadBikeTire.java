@@ -1,10 +1,6 @@
 
 package CreationalDesignPattern.AbstractFactoryPattern.ImplementExtensibleFactory;
 
-/**
- *
- * @author bethan
- */
 public class RoadBikeTire extends Tire {
     
     private static final String width = "NARROW";

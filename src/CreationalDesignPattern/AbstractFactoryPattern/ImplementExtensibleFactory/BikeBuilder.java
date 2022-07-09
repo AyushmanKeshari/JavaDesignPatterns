@@ -1,10 +1,6 @@
 
 package CreationalDesignPattern.AbstractFactoryPattern.ImplementExtensibleFactory;
 
-/**
- *
- * @author bethan
- */
 public class BikeBuilder {    
 
     public static void main(String[] args) {
