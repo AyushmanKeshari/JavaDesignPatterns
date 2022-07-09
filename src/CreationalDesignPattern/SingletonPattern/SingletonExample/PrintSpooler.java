@@ -1,4 +1,4 @@
-package CreationalDesignPattern.SingletonPattern.singleton;
+package CreationalDesignPattern.SingletonPattern.SingletonExample;
 
 //Singleton Class
 

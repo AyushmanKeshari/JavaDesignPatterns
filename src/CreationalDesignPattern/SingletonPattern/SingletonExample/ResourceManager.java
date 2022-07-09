@@ -1,11 +1,11 @@
-package CreationalDesignPattern.SingletonPattern.singleton;
+package CreationalDesignPattern.SingletonPattern.SingletonExample;
 
 public class ResourceManager {
 
     public static void main(String[] args) {
 //        PrintSpooler printSpooler = new PrintSpooler();   //Error because private Constructor
 
-//        PrintSpooler spooler = PrintSpooler.getInstance();
+        PrintSpooler spooler = PrintSpooler.getInstance();
 
 
         //Problem of Concurrency without Synchronized
